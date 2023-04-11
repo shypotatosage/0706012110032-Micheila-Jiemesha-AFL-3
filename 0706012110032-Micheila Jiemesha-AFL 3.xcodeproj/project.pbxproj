@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E3F3E029E4FF7300AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F3DF29E4FF7300AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3App.swift */; };
+		04E3F3E229E4FF7300AA6BA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F3E129E4FF7300AA6BA2 /* ContentView.swift */; };
+		04E3F3E429E4FF7500AA6BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E3F3E329E4FF7500AA6BA2 /* Assets.xcassets */; };
+		04E3F3E729E4FF7500AA6BA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E3F3E629E4FF7500AA6BA2 /* Preview Assets.xcassets */; };
+		04E3F3F129E4FF7500AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F3F029E4FF7500AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3Tests.swift */; };
+		04E3F3FB29E4FF7500AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F3FA29E4FF7500AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3UITests.swift */; };
+		04E3F3FD29E4FF7500AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F3FC29E4FF7500AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E3F3ED29E4FF7500AA6BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E3F3D429E4FF7300AA6BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E3F3DB29E4FF7300AA6BA2;
+			remoteInfo = "0706012110032-Micheila Jiemesha-AFL 3";
+		};
+		04E3F3F729E4FF7500AA6BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E3F3D429E4FF7300AA6BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E3F3DB29E4FF7300AA6BA2;
+			remoteInfo = "0706012110032-Micheila Jiemesha-AFL 3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E3F3DC29E4FF7300AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110032-Micheila Jiemesha-AFL 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E3F3DF29E4FF7300AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110032_Micheila_Jiemesha_AFL_3App.swift; sourceTree = "<group>"; };
+		04E3F3E129E4FF7300AA6BA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04E3F3E329E4FF7500AA6BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E3F3E629E4FF7500AA6BA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04E3F3EC29E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0706012110032-Micheila Jiemesha-AFL 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E3F3F029E4FF7500AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110032_Micheila_Jiemesha_AFL_3Tests.swift; sourceTree = "<group>"; };
+		04E3F3F629E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0706012110032-Micheila Jiemesha-AFL 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E3F3FA29E4FF7500AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110032_Micheila_Jiemesha_AFL_3UITests.swift; sourceTree = "<group>"; };
+		04E3F3FC29E4FF7500AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110032_Micheila_Jiemesha_AFL_3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E3F3D929E4FF7300AA6BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3F3E929E4FF7500AA6BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3F3F329E4FF7500AA6BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E3F3D329E4FF7300AA6BA2 = {
+			isa = PBXGroup;
+			children = (
+				04E3F3DE29E4FF7300AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3 */,
+				04E3F3EF29E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3Tests */,
+				04E3F3F929E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3UITests */,
+				04E3F3DD29E4FF7300AA6BA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E3F3DD29E4FF7300AA6BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E3F3DC29E4FF7300AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3.app */,
+				04E3F3EC29E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3Tests.xctest */,
+				04E3F3F629E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E3F3DE29E4FF7300AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3 */ = {
+			isa = PBXGroup;
+			children = (
+				04E3F3DF29E4FF7300AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3App.swift */,
+				04E3F3E129E4FF7300AA6BA2 /* ContentView.swift */,
+				04E3F3E329E4FF7500AA6BA2 /* Assets.xcassets */,
+				04E3F3E529E4FF7500AA6BA2 /* Preview Content */,
+			);
+			path = "0706012110032-Micheila Jiemesha-AFL 3";
+			sourceTree = "<group>";
+		};
+		04E3F3E529E4FF7500AA6BA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04E3F3E629E4FF7500AA6BA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04E3F3EF29E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04E3F3F029E4FF7500AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3Tests.swift */,
+			);
+			path = "0706012110032-Micheila Jiemesha-AFL 3Tests";
+			sourceTree = "<group>";
+		};
+		04E3F3F929E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04E3F3FA29E4FF7500AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3UITests.swift */,
+				04E3F3FC29E4FF7500AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3UITestsLaunchTests.swift */,
+			);
+			path = "0706012110032-Micheila Jiemesha-AFL 3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E3F3DB29E4FF7300AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E3F40029E4FF7500AA6BA2 /* Build configuration list for PBXNativeTarget "0706012110032-Micheila Jiemesha-AFL 3" */;
+			buildPhases = (
+				04E3F3D829E4FF7300AA6BA2 /* Sources */,
+				04E3F3D929E4FF7300AA6BA2 /* Frameworks */,
+				04E3F3DA29E4FF7300AA6BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0706012110032-Micheila Jiemesha-AFL 3";
+			productName = "0706012110032-Micheila Jiemesha-AFL 3";
+			productReference = 04E3F3DC29E4FF7300AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E3F3EB29E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E3F40329E4FF7500AA6BA2 /* Build configuration list for PBXNativeTarget "0706012110032-Micheila Jiemesha-AFL 3Tests" */;
+			buildPhases = (
+				04E3F3E829E4FF7500AA6BA2 /* Sources */,
+				04E3F3E929E4FF7500AA6BA2 /* Frameworks */,
+				04E3F3EA29E4FF7500AA6BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E3F3EE29E4FF7500AA6BA2 /* PBXTargetDependency */,
+			);
+			name = "0706012110032-Micheila Jiemesha-AFL 3Tests";
+			productName = "0706012110032-Micheila Jiemesha-AFL 3Tests";
+			productReference = 04E3F3EC29E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04E3F3F529E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E3F40629E4FF7500AA6BA2 /* Build configuration list for PBXNativeTarget "0706012110032-Micheila Jiemesha-AFL 3UITests" */;
+			buildPhases = (
+				04E3F3F229E4FF7500AA6BA2 /* Sources */,
+				04E3F3F329E4FF7500AA6BA2 /* Frameworks */,
+				04E3F3F429E4FF7500AA6BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E3F3F829E4FF7500AA6BA2 /* PBXTargetDependency */,
+			);
+			name = "0706012110032-Micheila Jiemesha-AFL 3UITests";
+			productName = "0706012110032-Micheila Jiemesha-AFL 3UITests";
+			productReference = 04E3F3F629E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E3F3D429E4FF7300AA6BA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					04E3F3DB29E4FF7300AA6BA2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					04E3F3EB29E4FF7500AA6BA2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04E3F3DB29E4FF7300AA6BA2;
+					};
+					04E3F3F529E4FF7500AA6BA2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04E3F3DB29E4FF7300AA6BA2;
+					};
+				};
+			};
+			buildConfigurationList = 04E3F3D729E4FF7300AA6BA2 /* Build configuration list for PBXProject "0706012110032-Micheila Jiemesha-AFL 3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E3F3D329E4FF7300AA6BA2;
+			productRefGroup = 04E3F3DD29E4FF7300AA6BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E3F3DB29E4FF7300AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3 */,
+				04E3F3EB29E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3Tests */,
+				04E3F3F529E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E3F3DA29E4FF7300AA6BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E3F3E729E4FF7500AA6BA2 /* Preview Assets.xcassets in Resources */,
+				04E3F3E429E4FF7500AA6BA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3F3EA29E4FF7500AA6BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3F3F429E4FF7500AA6BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E3F3D829E4FF7300AA6BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E3F3E229E4FF7300AA6BA2 /* ContentView.swift in Sources */,
+				04E3F3E029E4FF7300AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3F3E829E4FF7500AA6BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E3F3F129E4FF7500AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3F3F229E4FF7500AA6BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E3F3FB29E4FF7500AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3UITests.swift in Sources */,
+				04E3F3FD29E4FF7500AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E3F3EE29E4FF7500AA6BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E3F3DB29E4FF7300AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3 */;
+			targetProxy = 04E3F3ED29E4FF7500AA6BA2 /* PBXContainerItemProxy */;
+		};
+		04E3F3F829E4FF7500AA6BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E3F3DB29E4FF7300AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3 */;
+			targetProxy = 04E3F3F729E4FF7500AA6BA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04E3F3FE29E4FF7500AA6BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04E3F3FF29E4FF7500AA6BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E3F40129E4FF7500AA6BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"0706012110032-Micheila Jiemesha-AFL 3/Preview Content\"";
+				DEVELOPMENT_TEAM = 9KGU3SB5D7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "imtuc.-706012110032-Micheila-Jiemesha-AFL-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E3F40229E4FF7500AA6BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"0706012110032-Micheila Jiemesha-AFL 3/Preview Content\"";
+				DEVELOPMENT_TEAM = 9KGU3SB5D7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "imtuc.-706012110032-Micheila-Jiemesha-AFL-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04E3F40429E4FF7500AA6BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9KGU3SB5D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "imtuc.-706012110032-Micheila-Jiemesha-AFL-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0706012110032-Micheila Jiemesha-AFL 3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/0706012110032-Micheila Jiemesha-AFL 3";
+			};
+			name = Debug;
+		};
+		04E3F40529E4FF7500AA6BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9KGU3SB5D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "imtuc.-706012110032-Micheila-Jiemesha-AFL-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0706012110032-Micheila Jiemesha-AFL 3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/0706012110032-Micheila Jiemesha-AFL 3";
+			};
+			name = Release;
+		};
+		04E3F40729E4FF7500AA6BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9KGU3SB5D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "imtuc.-706012110032-Micheila-Jiemesha-AFL-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "0706012110032-Micheila Jiemesha-AFL 3";
+			};
+			name = Debug;
+		};
+		04E3F40829E4FF7500AA6BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9KGU3SB5D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "imtuc.-706012110032-Micheila-Jiemesha-AFL-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "0706012110032-Micheila Jiemesha-AFL 3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E3F3D729E4FF7300AA6BA2 /* Build configuration list for PBXProject "0706012110032-Micheila Jiemesha-AFL 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3F3FE29E4FF7500AA6BA2 /* Debug */,
+				04E3F3FF29E4FF7500AA6BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E3F40029E4FF7500AA6BA2 /* Build configuration list for PBXNativeTarget "0706012110032-Micheila Jiemesha-AFL 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3F40129E4FF7500AA6BA2 /* Debug */,
+				04E3F40229E4FF7500AA6BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E3F40329E4FF7500AA6BA2 /* Build configuration list for PBXNativeTarget "0706012110032-Micheila Jiemesha-AFL 3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3F40429E4FF7500AA6BA2 /* Debug */,
+				04E3F40529E4FF7500AA6BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E3F40629E4FF7500AA6BA2 /* Build configuration list for PBXNativeTarget "0706012110032-Micheila Jiemesha-AFL 3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3F40729E4FF7500AA6BA2 /* Debug */,
+				04E3F40829E4FF7500AA6BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E3F3D429E4FF7300AA6BA2 /* Project object */;
+}
