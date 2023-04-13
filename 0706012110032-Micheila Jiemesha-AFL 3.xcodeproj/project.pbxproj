@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BD5FCE29E8264000E1B144 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD5FCD29E8263F00E1B144 /* FavoriteButton.swift */; };
 		04E3F3E029E4FF7300AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F3DF29E4FF7300AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3App.swift */; };
 		04E3F3E229E4FF7300AA6BA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F3E129E4FF7300AA6BA2 /* ContentView.swift */; };
 		04E3F3E429E4FF7500AA6BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E3F3E329E4FF7500AA6BA2 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04BD5FCD29E8263F00E1B144 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		04E3F3DC29E4FF7300AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110032-Micheila Jiemesha-AFL 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E3F3DF29E4FF7300AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110032_Micheila_Jiemesha_AFL_3App.swift; sourceTree = "<group>"; };
 		04E3F3E129E4FF7300AA6BA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04BD5FCF29E826AB00E1B144 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				04E3F41629E5042C00AA6BA2 /* LandmarkRow.swift */,
+				04E3F41829E5054500AA6BA2 /* LandmarkList.swift */,
+				04E3F41A29E505F300AA6BA2 /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		04BD5FD029E826BF00E1B144 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				04BD5FCD29E8263F00E1B144 /* FavoriteButton.swift */,
+				04E3F40929E5023E00AA6BA2 /* CircleImage.swift */,
+				04E3F40B29E5029400AA6BA2 /* MapView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		04E3F3D329E4FF7300AA6BA2 = {
 			isa = PBXGroup;
 			children = (
@@ -148,12 +170,9 @@
 		04E3F41329E503C100AA6BA2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				04E3F40929E5023E00AA6BA2 /* CircleImage.swift */,
-				04E3F40B29E5029400AA6BA2 /* MapView.swift */,
+				04BD5FD029E826BF00E1B144 /* Helpers */,
+				04BD5FCF29E826AB00E1B144 /* Landmarks */,
 				04E3F3E129E4FF7300AA6BA2 /* ContentView.swift */,
-				04E3F41629E5042C00AA6BA2 /* LandmarkRow.swift */,
-				04E3F41829E5054500AA6BA2 /* LandmarkList.swift */,
-				04E3F41A29E505F300AA6BA2 /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -309,6 +328,7 @@
 				04E3F3E229E4FF7300AA6BA2 /* ContentView.swift in Sources */,
 				04E3F40C29E5029400AA6BA2 /* MapView.swift in Sources */,
 				04E3F3E029E4FF7300AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3App.swift in Sources */,
+				04BD5FCE29E8264000E1B144 /* FavoriteButton.swift in Sources */,
 				04E3F41929E5054500AA6BA2 /* LandmarkList.swift in Sources */,
 				04E3F41B29E505F300AA6BA2 /* LandmarkDetail.swift in Sources */,
 				04E3F40A29E5023E00AA6BA2 /* CircleImage.swift in Sources */,
