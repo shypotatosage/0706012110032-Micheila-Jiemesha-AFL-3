@@ -48,7 +48,7 @@ struct HikeGraph: View {
                         range: observation[keyPath: path],
                         overallRange: overallRange
                     )
-                    .animation(.ripple(index: 2.5))
+                    .animation(.ripple(index: 2))
                 }
                 .offset(x: 0, y: proxy.size.height * heightRatio)
             }
