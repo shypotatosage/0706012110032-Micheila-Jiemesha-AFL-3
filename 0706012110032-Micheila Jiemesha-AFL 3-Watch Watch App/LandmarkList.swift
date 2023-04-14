@@ -1,8 +1,8 @@
 //
 //  LandmarkList.swift
-//  0706012110032-Micheila Jiemesha-AFL 3
+//  0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App
 //
-//  Created by MacBook Pro on 11/04/23.
+//  Created by MacBook Pro on 14/04/23.
 //
 
 import SwiftUI
@@ -18,15 +18,12 @@ struct LandmarkList: View {
     }
 
     var body: some View {
-        // Untuk Navigasi Agar Bisa Ke Detail Landmark
         NavigationView {
             List {
-                // Toggle Button Untuk Menunjukkan Yang Disukai User Saja
                 Toggle(isOn: $showFavoritesOnly) {
                     Text("Favorites only")
                 }
 
-                // Menunjukkan Data Landmark Satu Per Satu (Dinamis), Difilter Berdasarkan Apakah User Mau Lihat Yang Dia Sukai Saja Atau Tidak
                 ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
                         LandmarkDetail(landmark: landmark)
@@ -36,7 +33,6 @@ struct LandmarkList: View {
                 }
             }
             .navigationTitle("Landmarks")
-            .frame(minWidth: 300)
         }
     }
 }

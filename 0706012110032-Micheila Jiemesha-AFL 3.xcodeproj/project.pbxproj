@@ -62,6 +62,7 @@
 		04E95DF629E9200F007FB2A3 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD5FF029E85A6900E1B144 /* Profile.swift */; };
 		04E95DF729E9200F007FB2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E3F3E329E4FF7500AA6BA2 /* Assets.xcassets */; };
 		04E95DF929E925C3007FB2A3 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E95DF829E925C3007FB2A3 /* LandmarkDetail.swift */; };
+		04E95DFB29E9555B007FB2A3 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E95DFA29E9555B007FB2A3 /* LandmarkList.swift */; };
 		04FED04429E8DA3500837F64 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FED04329E8DA3500837F64 /* PageControl.swift */; };
 		04FED0AA29E8E3AC00837F64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FED0A929E8E3AC00837F64 /* ContentView.swift */; };
 		04FED0AC29E8E3AE00837F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FED0AB29E8E3AE00837F64 /* Assets.xcassets */; };
@@ -81,7 +82,6 @@
 		04FED0C529E8E5F000837F64 /* _706012110032_Micheila_Jiemesha_AFL_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F3DF29E4FF7300AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3App.swift */; };
 		04FED0C629E8E5F000837F64 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F41129E503AA00AA6BA2 /* ModelData.swift */; };
 		04FED0C729E8E5F000837F64 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04BD5FDC29E8494D00E1B144 /* hikeData.json */; };
-		04FED0C829E8E5F000837F64 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F41829E5054500AA6BA2 /* LandmarkList.swift */; };
 		04FED0CA29E8E6BE00837F64 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FED0C929E8E6BE00837F64 /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
@@ -171,6 +171,7 @@
 		04E95DE529E91E1A007FB2A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04E95DE729E91E1A007FB2A3 /* _706012110032_Micheila_Jiemesha_AFL_3_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _706012110032_Micheila_Jiemesha_AFL_3_Mac.entitlements; sourceTree = "<group>"; };
 		04E95DF829E925C3007FB2A3 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		04E95DFA29E9555B007FB2A3 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		04FED04329E8DA3500837F64 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		04FED0A529E8E3AC00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FED0A929E8E3AC00837F64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -423,6 +424,7 @@
 				04FED0B929E8E43000837F64 /* NotificationController.swift */,
 				04FED0BB29E8E45400837F64 /* PushNotificationPayload.apns */,
 				04FED0C929E8E6BE00837F64 /* LandmarkDetail.swift */,
+				04E95DFA29E9555B007FB2A3 /* LandmarkList.swift */,
 			);
 			path = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App";
 			sourceTree = "<group>";
@@ -714,12 +716,12 @@
 				04FED0AA29E8E3AC00837F64 /* ContentView.swift in Sources */,
 				04FED0C029E8E5F000837F64 /* MapView.swift in Sources */,
 				04FED0BD29E8E5F000837F64 /* Profile.swift in Sources */,
+				04E95DFB29E9555B007FB2A3 /* LandmarkList.swift in Sources */,
 				04FED0C129E8E5F000837F64 /* CircleImage.swift in Sources */,
 				04FED0BA29E8E43000837F64 /* NotificationController.swift in Sources */,
 				04FED0B829E8E3DD00837F64 /* NotificationView.swift in Sources */,
 				04FED0C529E8E5F000837F64 /* _706012110032_Micheila_Jiemesha_AFL_3App.swift in Sources */,
 				04FED0CA29E8E6BE00837F64 /* LandmarkDetail.swift in Sources */,
-				04FED0C829E8E5F000837F64 /* LandmarkList.swift in Sources */,
 				04FED0C629E8E5F000837F64 /* ModelData.swift in Sources */,
 				04FED0C229E8E5F000837F64 /* Hike.swift in Sources */,
 				04FED0BE29E8E5F000837F64 /* Landmark.swift in Sources */,
