@@ -45,6 +45,22 @@
 		04E3F41729E5042C00AA6BA2 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F41629E5042C00AA6BA2 /* LandmarkRow.swift */; };
 		04E3F41929E5054500AA6BA2 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F41829E5054500AA6BA2 /* LandmarkList.swift */; };
 		04E3F41B29E505F300AA6BA2 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F41A29E505F300AA6BA2 /* LandmarkDetail.swift */; };
+		04E95DE129E91E18007FB2A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E95DE029E91E18007FB2A3 /* ContentView.swift */; };
+		04E95DE329E91E1A007FB2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E95DE229E91E1A007FB2A3 /* Assets.xcassets */; };
+		04E95DE629E91E1A007FB2A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E95DE529E91E1A007FB2A3 /* Preview Assets.xcassets */; };
+		04E95DEB29E9200F007FB2A3 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F40F29E5036200AA6BA2 /* Landmark.swift */; };
+		04E95DEC29E9200F007FB2A3 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD5FCD29E8263F00E1B144 /* FavoriteButton.swift */; };
+		04E95DED29E9200F007FB2A3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F40929E5023E00AA6BA2 /* CircleImage.swift */; };
+		04E95DEE29E9200F007FB2A3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F40B29E5029400AA6BA2 /* MapView.swift */; };
+		04E95DEF29E9200F007FB2A3 /* _706012110032_Micheila_Jiemesha_AFL_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F3DF29E4FF7300AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3App.swift */; };
+		04E95DF029E9200F007FB2A3 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F41129E503AA00AA6BA2 /* ModelData.swift */; };
+		04E95DF129E9200F007FB2A3 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F41629E5042C00AA6BA2 /* LandmarkRow.swift */; };
+		04E95DF229E9200F007FB2A3 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F41829E5054500AA6BA2 /* LandmarkList.swift */; };
+		04E95DF329E9200F007FB2A3 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04BD5FDC29E8494D00E1B144 /* hikeData.json */; };
+		04E95DF429E9200F007FB2A3 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD5FDE29E849A200E1B144 /* Hike.swift */; };
+		04E95DF529E9200F007FB2A3 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04E3F40D29E5035100AA6BA2 /* landmarkData.json */; };
+		04E95DF629E9200F007FB2A3 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD5FF029E85A6900E1B144 /* Profile.swift */; };
+		04E95DF729E9200F007FB2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E3F3E329E4FF7500AA6BA2 /* Assets.xcassets */; };
 		04FED04429E8DA3500837F64 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FED04329E8DA3500837F64 /* PageControl.swift */; };
 		04FED0AA29E8E3AC00837F64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FED0A929E8E3AC00837F64 /* ContentView.swift */; };
 		04FED0AC29E8E3AE00837F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FED0AB29E8E3AE00837F64 /* Assets.xcassets */; };
@@ -148,6 +164,11 @@
 		04E3F41629E5042C00AA6BA2 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		04E3F41829E5054500AA6BA2 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		04E3F41A29E505F300AA6BA2 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		04E95DDC29E91E17007FB2A3 /* 0706012110032-Micheila Jiemesha-AFL 3-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110032-Micheila Jiemesha-AFL 3-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E95DE029E91E18007FB2A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04E95DE229E91E1A007FB2A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E95DE529E91E1A007FB2A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04E95DE729E91E1A007FB2A3 /* _706012110032_Micheila_Jiemesha_AFL_3_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _706012110032_Micheila_Jiemesha_AFL_3_Mac.entitlements; sourceTree = "<group>"; };
 		04FED04329E8DA3500837F64 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		04FED0A529E8E3AC00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FED0A929E8E3AC00837F64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -175,6 +196,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		04E3F3F329E4FF7500AA6BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E95DD929E91E17007FB2A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,6 +301,7 @@
 				04E3F3EF29E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3Tests */,
 				04E3F3F929E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3UITests */,
 				04FED0A629E8E3AC00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App */,
+				04E95DDD29E91E18007FB2A3 /* 0706012110032-Micheila Jiemesha-AFL 3-Mac */,
 				04E3F3DD29E4FF7300AA6BA2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -284,6 +313,7 @@
 				04E3F3EC29E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3Tests.xctest */,
 				04E3F3F629E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3UITests.xctest */,
 				04FED0A529E8E3AC00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App.app */,
+				04E95DDC29E91E17007FB2A3 /* 0706012110032-Micheila Jiemesha-AFL 3-Mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -359,6 +389,25 @@
 				04E3F40D29E5035100AA6BA2 /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		04E95DDD29E91E18007FB2A3 /* 0706012110032-Micheila Jiemesha-AFL 3-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				04E95DE029E91E18007FB2A3 /* ContentView.swift */,
+				04E95DE229E91E1A007FB2A3 /* Assets.xcassets */,
+				04E95DE729E91E1A007FB2A3 /* _706012110032_Micheila_Jiemesha_AFL_3_Mac.entitlements */,
+				04E95DE429E91E1A007FB2A3 /* Preview Content */,
+			);
+			path = "0706012110032-Micheila Jiemesha-AFL 3-Mac";
+			sourceTree = "<group>";
+		};
+		04E95DE429E91E1A007FB2A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04E95DE529E91E1A007FB2A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		04FED0A629E8E3AC00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App */ = {
@@ -441,6 +490,23 @@
 			productReference = 04E3F3F629E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		04E95DDB29E91E17007FB2A3 /* 0706012110032-Micheila Jiemesha-AFL 3-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E95DEA29E91E1A007FB2A3 /* Build configuration list for PBXNativeTarget "0706012110032-Micheila Jiemesha-AFL 3-Mac" */;
+			buildPhases = (
+				04E95DD829E91E17007FB2A3 /* Sources */,
+				04E95DD929E91E17007FB2A3 /* Frameworks */,
+				04E95DDA29E91E17007FB2A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0706012110032-Micheila Jiemesha-AFL 3-Mac";
+			productName = "0706012110032-Micheila Jiemesha-AFL 3-Mac";
+			productReference = 04E95DDC29E91E17007FB2A3 /* 0706012110032-Micheila Jiemesha-AFL 3-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
 		04FED0A429E8E3AC00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04FED0B629E8E3AF00837F64 /* Build configuration list for PBXNativeTarget "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App" */;
@@ -479,6 +545,9 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 04E3F3DB29E4FF7300AA6BA2;
 					};
+					04E95DDB29E91E17007FB2A3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					04FED0A429E8E3AC00837F64 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -501,6 +570,7 @@
 				04E3F3EB29E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3Tests */,
 				04E3F3F529E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3UITests */,
 				04FED0A429E8E3AC00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App */,
+				04E95DDB29E91E17007FB2A3 /* 0706012110032-Micheila Jiemesha-AFL 3-Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -528,6 +598,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E95DDA29E91E17007FB2A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E95DE629E91E1A007FB2A3 /* Preview Assets.xcassets in Resources */,
+				04E95DF529E9200F007FB2A3 /* landmarkData.json in Resources */,
+				04E95DF329E9200F007FB2A3 /* hikeData.json in Resources */,
+				04E95DE329E91E1A007FB2A3 /* Assets.xcassets in Resources */,
+				04E95DF729E9200F007FB2A3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,6 +682,24 @@
 			files = (
 				04E3F3FB29E4FF7500AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3UITests.swift in Sources */,
 				04E3F3FD29E4FF7500AA6BA2 /* _706012110032_Micheila_Jiemesha_AFL_3UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E95DD829E91E17007FB2A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E95DF429E9200F007FB2A3 /* Hike.swift in Sources */,
+				04E95DEF29E9200F007FB2A3 /* _706012110032_Micheila_Jiemesha_AFL_3App.swift in Sources */,
+				04E95DEC29E9200F007FB2A3 /* FavoriteButton.swift in Sources */,
+				04E95DED29E9200F007FB2A3 /* CircleImage.swift in Sources */,
+				04E95DEE29E9200F007FB2A3 /* MapView.swift in Sources */,
+				04E95DF229E9200F007FB2A3 /* LandmarkList.swift in Sources */,
+				04E95DE129E91E18007FB2A3 /* ContentView.swift in Sources */,
+				04E95DEB29E9200F007FB2A3 /* Landmark.swift in Sources */,
+				04E95DF629E9200F007FB2A3 /* Profile.swift in Sources */,
+				04E95DF129E9200F007FB2A3 /* LandmarkRow.swift in Sources */,
+				04E95DF029E9200F007FB2A3 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -894,6 +994,64 @@
 			};
 			name = Release;
 		};
+		04E95DE829E91E1A007FB2A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "0706012110032-Micheila Jiemesha-AFL 3-Mac/_706012110032_Micheila_Jiemesha_AFL_3_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"0706012110032-Micheila Jiemesha-AFL 3-Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = 9KGU3SB5D7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "imtuc.-706012110032-Micheila-Jiemesha-AFL-3-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04E95DE929E91E1A007FB2A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "0706012110032-Micheila Jiemesha-AFL 3-Mac/_706012110032_Micheila_Jiemesha_AFL_3_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"0706012110032-Micheila Jiemesha-AFL 3-Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = 9KGU3SB5D7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "imtuc.-706012110032-Micheila-Jiemesha-AFL-3-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		04FED0B429E8E3AF00837F64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -989,6 +1147,15 @@
 			buildConfigurations = (
 				04E3F40729E4FF7500AA6BA2 /* Debug */,
 				04E3F40829E4FF7500AA6BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E95DEA29E91E1A007FB2A3 /* Build configuration list for PBXNativeTarget "0706012110032-Micheila Jiemesha-AFL 3-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E95DE829E91E1A007FB2A3 /* Debug */,
+				04E95DE929E91E1A007FB2A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
