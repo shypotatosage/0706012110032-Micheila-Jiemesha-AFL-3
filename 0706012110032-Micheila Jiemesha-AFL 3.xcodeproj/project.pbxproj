@@ -61,6 +61,7 @@
 		04E95DF529E9200F007FB2A3 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04E3F40D29E5035100AA6BA2 /* landmarkData.json */; };
 		04E95DF629E9200F007FB2A3 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD5FF029E85A6900E1B144 /* Profile.swift */; };
 		04E95DF729E9200F007FB2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E3F3E329E4FF7500AA6BA2 /* Assets.xcassets */; };
+		04E95DF929E925C3007FB2A3 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E95DF829E925C3007FB2A3 /* LandmarkDetail.swift */; };
 		04FED04429E8DA3500837F64 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FED04329E8DA3500837F64 /* PageControl.swift */; };
 		04FED0AA29E8E3AC00837F64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FED0A929E8E3AC00837F64 /* ContentView.swift */; };
 		04FED0AC29E8E3AE00837F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FED0AB29E8E3AE00837F64 /* Assets.xcassets */; };
@@ -169,6 +170,7 @@
 		04E95DE229E91E1A007FB2A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E95DE529E91E1A007FB2A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04E95DE729E91E1A007FB2A3 /* _706012110032_Micheila_Jiemesha_AFL_3_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _706012110032_Micheila_Jiemesha_AFL_3_Mac.entitlements; sourceTree = "<group>"; };
+		04E95DF829E925C3007FB2A3 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		04FED04329E8DA3500837F64 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		04FED0A529E8E3AC00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FED0A929E8E3AC00837F64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -398,6 +400,7 @@
 				04E95DE229E91E1A007FB2A3 /* Assets.xcassets */,
 				04E95DE729E91E1A007FB2A3 /* _706012110032_Micheila_Jiemesha_AFL_3_Mac.entitlements */,
 				04E95DE429E91E1A007FB2A3 /* Preview Content */,
+				04E95DF829E925C3007FB2A3 /* LandmarkDetail.swift */,
 			);
 			path = "0706012110032-Micheila Jiemesha-AFL 3-Mac";
 			sourceTree = "<group>";
@@ -693,6 +696,7 @@
 				04E95DEF29E9200F007FB2A3 /* _706012110032_Micheila_Jiemesha_AFL_3App.swift in Sources */,
 				04E95DEC29E9200F007FB2A3 /* FavoriteButton.swift in Sources */,
 				04E95DED29E9200F007FB2A3 /* CircleImage.swift in Sources */,
+				04E95DF929E925C3007FB2A3 /* LandmarkDetail.swift in Sources */,
 				04E95DEE29E9200F007FB2A3 /* MapView.swift in Sources */,
 				04E95DF229E9200F007FB2A3 /* LandmarkList.swift in Sources */,
 				04E95DE129E91E18007FB2A3 /* ContentView.swift in Sources */,
