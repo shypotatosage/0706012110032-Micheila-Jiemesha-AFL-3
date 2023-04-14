@@ -46,13 +46,6 @@
 		04E3F41929E5054500AA6BA2 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F41829E5054500AA6BA2 /* LandmarkList.swift */; };
 		04E3F41B29E505F300AA6BA2 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3F41A29E505F300AA6BA2 /* LandmarkDetail.swift */; };
 		04FED04429E8DA3500837F64 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FED04329E8DA3500837F64 /* PageControl.swift */; };
-		04FED07A29E8E1E800837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FED07929E8E1E800837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_WatchApp.swift */; };
-		04FED07C29E8E1E800837F64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FED07B29E8E1E800837F64 /* ContentView.swift */; };
-		04FED07E29E8E1EA00837F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FED07D29E8E1EA00837F64 /* Assets.xcassets */; };
-		04FED08129E8E1EA00837F64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FED08029E8E1EA00837F64 /* Preview Assets.xcassets */; };
-		04FED08B29E8E1EB00837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FED08A29E8E1EB00837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppTests.swift */; };
-		04FED09529E8E1EB00837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FED09429E8E1EB00837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppUITests.swift */; };
-		04FED09729E8E1EB00837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FED09629E8E1EB00837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,20 +62,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 04E3F3DB29E4FF7300AA6BA2;
 			remoteInfo = "0706012110032-Micheila Jiemesha-AFL 3";
-		};
-		04FED08729E8E1EB00837F64 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04E3F3D429E4FF7300AA6BA2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04FED07629E8E1E800837F64;
-			remoteInfo = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App";
-		};
-		04FED09129E8E1EB00837F64 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04E3F3D429E4FF7300AA6BA2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04FED07629E8E1E800837F64;
-			remoteInfo = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -129,16 +108,6 @@
 		04E3F41829E5054500AA6BA2 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		04E3F41A29E505F300AA6BA2 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		04FED04329E8DA3500837F64 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
-		04FED07729E8E1E800837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04FED07929E8E1E800837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110032_Micheila_Jiemesha_AFL_3_WatchApp.swift; sourceTree = "<group>"; };
-		04FED07B29E8E1E800837F64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		04FED07D29E8E1EA00837F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04FED08029E8E1EA00837F64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		04FED08629E8E1EB00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04FED08A29E8E1EB00837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppTests.swift; sourceTree = "<group>"; };
-		04FED09029E8E1EB00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04FED09429E8E1EB00837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
-		04FED09629E8E1EB00837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,27 +126,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		04E3F3F329E4FF7500AA6BA2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04FED07429E8E1E800837F64 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04FED08329E8E1EB00837F64 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04FED08D29E8E1EB00837F64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,9 +216,6 @@
 				04E3F3DE29E4FF7300AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3 */,
 				04E3F3EF29E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3Tests */,
 				04E3F3F929E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3UITests */,
-				04FED07829E8E1E800837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App */,
-				04FED08929E8E1EB00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppTests */,
-				04FED09329E8E1EB00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppUITests */,
 				04E3F3DD29E4FF7300AA6BA2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -281,9 +226,6 @@
 				04E3F3DC29E4FF7300AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3.app */,
 				04E3F3EC29E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3Tests.xctest */,
 				04E3F3F629E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3UITests.xctest */,
-				04FED07729E8E1E800837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App.app */,
-				04FED08629E8E1EB00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppTests.xctest */,
-				04FED09029E8E1EB00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -361,42 +303,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		04FED07829E8E1E800837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App */ = {
-			isa = PBXGroup;
-			children = (
-				04FED07929E8E1E800837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_WatchApp.swift */,
-				04FED07B29E8E1E800837F64 /* ContentView.swift */,
-				04FED07D29E8E1EA00837F64 /* Assets.xcassets */,
-				04FED07F29E8E1EA00837F64 /* Preview Content */,
-			);
-			path = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App";
-			sourceTree = "<group>";
-		};
-		04FED07F29E8E1EA00837F64 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				04FED08029E8E1EA00837F64 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		04FED08929E8E1EB00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppTests */ = {
-			isa = PBXGroup;
-			children = (
-				04FED08A29E8E1EB00837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppTests.swift */,
-			);
-			path = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppTests";
-			sourceTree = "<group>";
-		};
-		04FED09329E8E1EB00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				04FED09429E8E1EB00837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppUITests.swift */,
-				04FED09629E8E1EB00837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppUITestsLaunchTests.swift */,
-			);
-			path = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -453,59 +359,6 @@
 			productReference = 04E3F3F629E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		04FED07629E8E1E800837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04FED09E29E8E1EB00837F64 /* Build configuration list for PBXNativeTarget "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App" */;
-			buildPhases = (
-				04FED07329E8E1E800837F64 /* Sources */,
-				04FED07429E8E1E800837F64 /* Frameworks */,
-				04FED07529E8E1E800837F64 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App";
-			productName = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App";
-			productReference = 04FED07729E8E1E800837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App.app */;
-			productType = "com.apple.product-type.application";
-		};
-		04FED08529E8E1EB00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04FED09F29E8E1EB00837F64 /* Build configuration list for PBXNativeTarget "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppTests" */;
-			buildPhases = (
-				04FED08229E8E1EB00837F64 /* Sources */,
-				04FED08329E8E1EB00837F64 /* Frameworks */,
-				04FED08429E8E1EB00837F64 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04FED08829E8E1EB00837F64 /* PBXTargetDependency */,
-			);
-			name = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppTests";
-			productName = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppTests";
-			productReference = 04FED08629E8E1EB00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		04FED08F29E8E1EB00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04FED0A029E8E1EB00837F64 /* Build configuration list for PBXNativeTarget "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppUITests" */;
-			buildPhases = (
-				04FED08C29E8E1EB00837F64 /* Sources */,
-				04FED08D29E8E1EB00837F64 /* Frameworks */,
-				04FED08E29E8E1EB00837F64 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04FED09229E8E1EB00837F64 /* PBXTargetDependency */,
-			);
-			name = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppUITests";
-			productName = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppUITests";
-			productReference = 04FED09029E8E1EB00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -527,17 +380,6 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 04E3F3DB29E4FF7300AA6BA2;
 					};
-					04FED07629E8E1E800837F64 = {
-						CreatedOnToolsVersion = 14.2;
-					};
-					04FED08529E8E1EB00837F64 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 04FED07629E8E1E800837F64;
-					};
-					04FED08F29E8E1EB00837F64 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 04FED07629E8E1E800837F64;
-					};
 				};
 			};
 			buildConfigurationList = 04E3F3D729E4FF7300AA6BA2 /* Build configuration list for PBXProject "0706012110032-Micheila Jiemesha-AFL 3" */;
@@ -556,9 +398,6 @@
 				04E3F3DB29E4FF7300AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3 */,
 				04E3F3EB29E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3Tests */,
 				04E3F3F529E4FF7500AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3UITests */,
-				04FED07629E8E1E800837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App */,
-				04FED08529E8E1EB00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppTests */,
-				04FED08F29E8E1EB00837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -583,29 +422,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		04E3F3F429E4FF7500AA6BA2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04FED07529E8E1E800837F64 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04FED08129E8E1EA00837F64 /* Preview Assets.xcassets in Resources */,
-				04FED07E29E8E1EA00837F64 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04FED08429E8E1EB00837F64 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04FED08E29E8E1EB00837F64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -671,32 +487,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04FED07329E8E1E800837F64 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04FED07C29E8E1E800837F64 /* ContentView.swift in Sources */,
-				04FED07A29E8E1E800837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_WatchApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04FED08229E8E1EB00837F64 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04FED08B29E8E1EB00837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04FED08C29E8E1EB00837F64 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04FED09529E8E1EB00837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppUITests.swift in Sources */,
-				04FED09729E8E1EB00837F64 /* _706012110032_Micheila_Jiemesha_AFL_3_Watch_Watch_AppUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -709,16 +499,6 @@
 			isa = PBXTargetDependency;
 			target = 04E3F3DB29E4FF7300AA6BA2 /* 0706012110032-Micheila Jiemesha-AFL 3 */;
 			targetProxy = 04E3F3F729E4FF7500AA6BA2 /* PBXContainerItemProxy */;
-		};
-		04FED08829E8E1EB00837F64 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04FED07629E8E1E800837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App */;
-			targetProxy = 04FED08729E8E1EB00837F64 /* PBXContainerItemProxy */;
-		};
-		04FED09229E8E1EB00837F64 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04FED07629E8E1E800837F64 /* 0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App */;
-			targetProxy = 04FED09129E8E1EB00837F64 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -971,150 +751,6 @@
 			};
 			name = Release;
 		};
-		04FED09829E8E1EB00837F64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = 9KGU3SB5D7;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "0706012110032-Micheila Jiemesha-AFL 3-Watch";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
-			};
-			name = Debug;
-		};
-		04FED09929E8E1EB00837F64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = 9KGU3SB5D7;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "0706012110032-Micheila Jiemesha-AFL 3-Watch";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
-			};
-			name = Release;
-		};
-		04FED09A29E8E1EB00837F64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9KGU3SB5D7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "imtuc.-706012110032-Micheila-Jiemesha-AFL-3-Watch-Watch-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
-			};
-			name = Debug;
-		};
-		04FED09B29E8E1EB00837F64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9KGU3SB5D7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "imtuc.-706012110032-Micheila-Jiemesha-AFL-3-Watch-Watch-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
-			};
-			name = Release;
-		};
-		04FED09C29E8E1EB00837F64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9KGU3SB5D7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "imtuc.-706012110032-Micheila-Jiemesha-AFL-3-Watch-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
-			};
-			name = Debug;
-		};
-		04FED09D29E8E1EB00837F64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9KGU3SB5D7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "imtuc.-706012110032-Micheila-Jiemesha-AFL-3-Watch-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1150,33 +786,6 @@
 			buildConfigurations = (
 				04E3F40729E4FF7500AA6BA2 /* Debug */,
 				04E3F40829E4FF7500AA6BA2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04FED09E29E8E1EB00837F64 /* Build configuration list for PBXNativeTarget "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04FED09829E8E1EB00837F64 /* Debug */,
-				04FED09929E8E1EB00837F64 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04FED09F29E8E1EB00837F64 /* Build configuration list for PBXNativeTarget "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04FED09A29E8E1EB00837F64 /* Debug */,
-				04FED09B29E8E1EB00837F64 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04FED0A029E8E1EB00837F64 /* Build configuration list for PBXNativeTarget "0706012110032-Micheila Jiemesha-AFL 3-Watch Watch AppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04FED09C29E8E1EB00837F64 /* Debug */,
-				04FED09D29E8E1EB00837F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
