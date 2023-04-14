@@ -13,11 +13,12 @@ struct PageControl: UIViewRepresentable {
     var numberOfPages: Int
     @Binding var currentPage: Int
     
+    //  Buat Atur Koordinat Page Sekarang
     func makeCoordinator() -> Coordinator {
         Coordinator(self)
     }
 
-
+    // Untuk Buat Page Control Sesuai Number Of Pages
     func makeUIView(context: Context) -> UIPageControl {
         let control = UIPageControl()
         control.numberOfPages = numberOfPages
@@ -29,10 +30,12 @@ struct PageControl: UIViewRepresentable {
         return control
     }
 
+    // Update View UI Menjadi Page Yang Sekarang
     func updateUIView(_ uiView: UIPageControl, context: Context) {
         uiView.currentPage = currentPage
     }
     
+    // Buat Ngatur Koordinat Page
     class Coordinator: NSObject {
         var control: PageControl
 

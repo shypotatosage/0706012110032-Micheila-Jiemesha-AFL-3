@@ -9,6 +9,7 @@ import WatchKit
 import SwiftUI
 import UserNotifications
 
+// Ini Controller Notification Di Watch
 class NotificationController: WKUserNotificationHostingController<NotificationView> {
 
     override var body: NotificationView {

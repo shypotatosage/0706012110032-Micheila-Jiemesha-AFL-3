@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Ini Model Untuk Object Hike
 struct Hike: Codable, Hashable, Identifiable {
     var id: Int
     var name: String

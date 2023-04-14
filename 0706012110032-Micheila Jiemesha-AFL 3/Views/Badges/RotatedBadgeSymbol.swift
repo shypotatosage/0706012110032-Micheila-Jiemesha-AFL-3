@@ -11,6 +11,7 @@ struct RotatedBadgeSymbol: View {
     let angle: Angle
     
     var body: some View {
+        // Ini Ngatur Rotation Symbol dengan Rotation Effect Berdasarkan Angle Yang Diinginkan
         BadgeSymbol()
             .padding(-60)
             .rotationEffect(angle, anchor: .bottom)

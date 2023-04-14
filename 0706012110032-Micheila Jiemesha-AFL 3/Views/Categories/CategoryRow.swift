@@ -7,19 +7,24 @@
 
 import SwiftUI
 
+// Tampilan Row Setiap Category
 struct CategoryRow: View {
     var categoryName: String
     var items: [Landmark]
 
     var body: some View {
+        // Mengatur Konten Vertical Seperti Column Di Jetpack Compose
         VStack(alignment: .leading) {
             Text(categoryName)
                 .font(.headline)
                 .padding(.leading, 15)
                 .padding(.top, 5)
 
+            // Biar Bisa Scroll, Mirip Di Android Studio
             ScrollView(.horizontal, showsIndicators: false) {
+                // Mengatur Konten Horizontal Seperti Row Di Jetpack Compose
                 HStack(alignment: .top, spacing: 0) {
+                    // Looping Sesuai Jumlah Landmark (Dinamis) dan Bisa Di Klik Menuju Landmark Detail
                     ForEach(items) { landmark in
                         NavigationLink {
                             LandmarkDetail(landmark: landmark)
@@ -34,6 +39,7 @@ struct CategoryRow: View {
     }
 }
 
+// Preview
 struct CategoryRow_Previews: PreviewProvider {
     static var landmarks = ModelData().landmarks
 

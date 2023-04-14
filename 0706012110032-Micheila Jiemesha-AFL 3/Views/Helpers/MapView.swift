@@ -9,6 +9,7 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
+    // Ini Koordinat Dari Lokasi Yang Mau Ditunjukkan Di Mapnya
     var coordinate: CLLocationCoordinate2D
     @State private var region = MKCoordinateRegion()
 
@@ -19,6 +20,7 @@ struct MapView: View {
             }
     }
 
+    // Ini Buat Ngatur Region Awal Sampai Mana Yang Ditampilkan
     private func setRegion(_ coordinate: CLLocationCoordinate2D) {
         region = MKCoordinateRegion(
             center: coordinate,
@@ -29,6 +31,7 @@ struct MapView: View {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
+        // Ini Contoh Koordinatnya
         MapView(coordinate: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868))
     }
 }

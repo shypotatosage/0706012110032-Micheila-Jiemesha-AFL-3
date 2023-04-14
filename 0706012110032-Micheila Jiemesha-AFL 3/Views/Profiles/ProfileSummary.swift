@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ProfileSummary: View {
+    // Ini Adalah Tampilan Summary Dari Profile User
+    
+    // Data Yang Dipakai Di Banyak Views
     @EnvironmentObject var modelData: ModelData
     var profile: Profile
 

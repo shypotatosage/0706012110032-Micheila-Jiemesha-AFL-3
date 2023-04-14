@@ -8,6 +8,7 @@
 import Foundation
 import Combine
 
+// Ini Untuk Load Data Dari JSON
 final class ModelData: ObservableObject {
     @Published var landmarks: [Landmark] = load("landmarkData.json")
     var hikes: [Hike] = load("hikeData.json")
@@ -26,8 +27,10 @@ final class ModelData: ObservableObject {
     }
 }
 
+// Load Data Landmarks di landmarkData.json
 var landmarks: [Landmark] = load("landmarkData.json")
 
+// Function Untuk Load Data JSON
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
 

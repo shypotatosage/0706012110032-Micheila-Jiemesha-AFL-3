@@ -11,6 +11,7 @@ struct FavoriteButton: View {
     @Binding var isSet: Bool
 
     var body: some View {
+        // Ini Button Buat User Bisa Memilih Untuk Menjadikan Landmark Salah Satu Yang Disukainya
         Button {
             isSet.toggle()
         } label: {

@@ -11,6 +11,7 @@ struct FeatureCard: View {
     var landmark: Landmark
 
     var body: some View {
+        // Menampilkan Image Dengan Overlay Text Yang Dibuat Di Bawah
         landmark.featureImage?
             .resizable()
             .aspectRatio(3 / 2, contentMode: .fit)
@@ -23,6 +24,7 @@ struct FeatureCard: View {
 struct TextOverlay: View {
     var landmark: Landmark
 
+    // Gradient Agar Ada Efek Shadow Ke Dalam
     var gradient: LinearGradient {
         .linearGradient(
             Gradient(colors: [.black.opacity(0.6), .black.opacity(0)]),
@@ -30,6 +32,7 @@ struct TextOverlay: View {
             endPoint: .center)
     }
 
+    // Mengatur Konten Text
     var body: some View {
         ZStack(alignment: .bottomLeading) {
             gradient

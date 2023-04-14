@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct ProfileHost: View {
+    // Environment Ini Akan Mempengaruhi Semua Yang Bergantung Kepadanya Jika Ia Berubah
     @Environment(\.editMode) var editMode
+    // Environment Object Untuk Object Yang Dipakai Di Multiple Views
     @EnvironmentObject var modelData: ModelData
+    // State Untuk Bisa Modify Value
     @State private var draftProfile = Profile.default
 
     var body: some View {
@@ -25,6 +28,8 @@ struct ProfileHost: View {
                 EditButton()
             }
             
+            // Jika Edit Mode On Maka Menampilkan Profile Editor, Jika Off Maka Menampilkan Profile Summary
+            // Jika Masuk Profile Editor, draftProfile = Profile di Model Data agar data terus up to date, dan jika sudah edit maka Model Data Profile akan diupdate sesuai draftProfile
             if editMode?.wrappedValue == .inactive {
                 ProfileSummary(profile: modelData.profile)
             } else {

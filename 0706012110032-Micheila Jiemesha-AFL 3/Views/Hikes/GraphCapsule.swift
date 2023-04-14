@@ -8,12 +8,14 @@ A single line in the graph.
 import SwiftUI
 
 struct GraphCapsule: View, Equatable {
+    // Graph Capsule Ini Digunakan Untuk Menunjukkan Besar Kecilnya Data
     var index: Int
     var color: Color
     var height: CGFloat
     var range: Range<Double>
     var overallRange: Range<Double>
 
+    // Mengatur Tampilan, Offset, dan Height Ratio dari Capsule ini
     var heightRatio: CGFloat {
         max(CGFloat(magnitude(of: range) / magnitude(of: overallRange)), 0.15)
     }

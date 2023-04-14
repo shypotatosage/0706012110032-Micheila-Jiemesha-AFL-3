@@ -11,6 +11,7 @@ struct HikeDetail: View {
     let hike: Hike
     @State var dataToShow = \Hike.Observation.elevation
 
+    // Menentukan Button Mana Yang Terpilih dan Data Mana Yang Ditampilkan
     var buttons = [
         ("Elevation", \Hike.Observation.elevation),
         ("Heart Rate", \Hike.Observation.heartRate),
@@ -18,6 +19,7 @@ struct HikeDetail: View {
     ]
 
     var body: some View {
+        // Mengatur Tampilan Graph Ketika Di Expand
         VStack {
             HikeGraph(hike: hike, path: dataToShow)
                 .frame(height: 200)

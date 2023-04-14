@@ -10,6 +10,7 @@ import SwiftUI
 struct BadgeBackground: View {
     var body: some View {
         GeometryReader { geometry in
+            // Membentuk Shape
             Path { path in
                 var width: CGFloat = min(geometry
                     .size
@@ -20,6 +21,8 @@ struct BadgeBackground: View {
                 let xScale: CGFloat = 0.832
                 let xOffset = (width * (1.0 - xScale)) / 2.0
                 width *= xScale
+                
+                // Memindahkan Kursor Di Dalam Batas Shapenya
                 path.move(
                     to: CGPoint(
                         x: width * 0.95 + xOffset,
@@ -27,6 +30,7 @@ struct BadgeBackground: View {
                     )
                 )
                 
+                // Mengatur Bentuk Dari Hexagon dan Memberikan Warna Gradient
                 HexagonParameters.segments.forEach { segment in
                     path.addLine(
                         to: CGPoint(
@@ -55,6 +59,8 @@ struct BadgeBackground: View {
         }
         .aspectRatio(1, contentMode: .fit)
     }
+    
+    // Mengatur Gradient Mulai dan Diakhiri Oleh Warna Apa
     static let gradientStart = Color(red: 239.0 / 255, green: 120.0 / 255, blue: 221.0 / 255)
     static let gradientEnd = Color(red: 239.0 / 255, green: 172.0 / 255, blue: 120.0 / 255)
 }

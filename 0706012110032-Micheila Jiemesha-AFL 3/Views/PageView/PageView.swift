@@ -12,8 +12,12 @@ struct PageView<Page: View>: View {
     @State private var currentPage = 0
 
     var body: some View {
+        // Bottom Trailing Agar Page Control Bisa Ada Di Kanan Bawah
         ZStack(alignment: .bottomTrailing) {
+            // This is the page view that can change on slide or click on the PageControl
             PageViewController(pages: pages, currentPage: $currentPage)
+            
+            // This is the three little dots that can also be clicked to navigate through the page
             PageControl(numberOfPages: pages.count, currentPage: $currentPage)
                 .frame(width: CGFloat(pages.count * 18))
                 .padding(.trailing)

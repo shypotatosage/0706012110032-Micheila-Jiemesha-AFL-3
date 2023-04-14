@@ -7,10 +7,12 @@
 
 import SwiftUI
 
+// Tampilan Item Setiap Category
 struct CategoryItem: View {
     var landmark: Landmark
 
     var body: some View {
+        // Mengatur Konten Vertical Seperti Column Di Jetpack Compose
         VStack(alignment: .leading) {
             landmark.image
                 .renderingMode(.original)
@@ -25,6 +27,7 @@ struct CategoryItem: View {
     }
 }
 
+// Preview
 struct CategoryItem_Previews: PreviewProvider {
     static var previews: some View {
         CategoryItem(landmark: ModelData().landmarks[0])

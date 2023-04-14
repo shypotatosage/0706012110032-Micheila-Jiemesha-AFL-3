@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Tampilan Home Untuk Melihat Category Landmarks
 struct CategoryHome: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showingProfile = false

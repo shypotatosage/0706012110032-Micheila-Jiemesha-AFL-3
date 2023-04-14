@@ -8,6 +8,7 @@ The elevation, heart rate, and pace of a hike plotted on a graph.
 import SwiftUI
 
 extension Animation {
+    // Animasi Ripple Saat Pindah Graph
     static func ripple(index: Int) -> Animation {
         Animation.spring(dampingFraction: 0.5)
             .speed(2)
@@ -19,6 +20,7 @@ struct HikeGraph: View {
     var hike: Hike
     var path: KeyPath<Hike.Observation, Range<Double>>
 
+    // Mengatur Warna Berbeda Berdasarkan Jenis Graph
     var color: Color {
         switch path {
         case \.elevation:
@@ -31,7 +33,8 @@ struct HikeGraph: View {
             return .black
         }
     }
-
+    
+    // Mengatur Tampilan Graphnya
     var body: some View {
         let data = hike.observations
         let overallRange = rangeOfRanges(data.lazy.map { $0[keyPath: path] })
@@ -56,6 +59,7 @@ struct HikeGraph: View {
     }
 }
 
+// Mengatur Range Dari Graph
 func rangeOfRanges<C: Collection>(_ ranges: C) -> Range<Double>
     where C.Element == Range<Double> {
     guard !ranges.isEmpty else { return 0..<0 }
@@ -64,6 +68,7 @@ func rangeOfRanges<C: Collection>(_ ranges: C) -> Range<Double>
     return low..<high
 }
 
+// Mengatur Magnitude Dari Graph
 func magnitude(of range: Range<Double>) -> Double {
     range.upperBound - range.lowerBound
 }

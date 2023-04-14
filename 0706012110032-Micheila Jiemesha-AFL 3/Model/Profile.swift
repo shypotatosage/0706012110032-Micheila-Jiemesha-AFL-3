@@ -7,12 +7,14 @@
 
 import Foundation
 
+// Ini Model Untuk Profile User
 struct Profile {
     var username: String
     var prefersNotifications = true
     var seasonalPhoto = Season.winter
     var goalDate = Date()
 
+    // Set Default Value Of Name
     static let `default` = Profile(username: "g_kumar")
 
     enum Season: String, CaseIterable, Identifiable {

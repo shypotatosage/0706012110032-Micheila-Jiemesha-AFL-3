@@ -10,6 +10,7 @@ import SwiftUI
 struct ProfileEditor: View {
     @Binding var profile: Profile
     
+    // Mengatur Maksimal dan Minimal Tanggal
     var dateRange: ClosedRange<Date> {
         let min = Calendar.current.date(byAdding: .year, value: -1, to: profile.goalDate)!
         let max = Calendar.current.date(byAdding: .year, value: 1, to: profile.goalDate)!
@@ -18,16 +19,19 @@ struct ProfileEditor: View {
     
     var body: some View {
         List {
+            // Text Field
             HStack {
                 Text("Username").bold()
                 Divider()
                 TextField("Username", text: $profile.username)
             }
             
+            // Toggle Button On Off
             Toggle(isOn: $profile.prefersNotifications) {
                 Text("Enable Notifications").bold()
             }
             
+            // Picker Memilih Seasonal Photo Berdasarkan Yang Sudah Ada
             VStack(alignment: .leading, spacing: 20) {
                 Text("Seasonal Photo").bold()
                 
@@ -39,6 +43,7 @@ struct ProfileEditor: View {
                 .pickerStyle(.segmented)
             }
             
+            // Tombol Milih Tanggal
             DatePicker(selection: $profile.goalDate, in: dateRange, displayedComponents: .date) {
                 Text("Goal Date").bold()
             }

@@ -11,6 +11,7 @@ struct HikeBadge: View {
     var name: String
 
     var body: some View {
+        // Menggunakan Badge Yang Sudah Dibikin Tadi
         VStack(alignment: .center) {
             Badge()
                 .frame(width: 300, height: 300)

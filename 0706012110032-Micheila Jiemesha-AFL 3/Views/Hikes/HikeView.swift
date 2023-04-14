@@ -8,6 +8,7 @@ A view displaying information about a hike, including an elevation graph.
 import SwiftUI
 
 extension AnyTransition {
+    // Animasi Ketika Membuka dan Ketika Menutup
     static var moveAndFade: AnyTransition {
         .asymmetric(
             insertion: .move(edge: .trailing).combined(with: .opacity),
@@ -34,6 +35,7 @@ struct HikeView: View {
 
                 Spacer()
 
+                // Button Dengan Animasi Rotasi dan Scale Saat Membuka dan Menutup
                 Button {
                     withAnimation {
                         showDetail.toggle()
@@ -48,6 +50,7 @@ struct HikeView: View {
                 }
             }
 
+            // Transisi Smooth
             if showDetail {
                 HikeDetail(hike: hike)
                     .transition(.moveAndFade)

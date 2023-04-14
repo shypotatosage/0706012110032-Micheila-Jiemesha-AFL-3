@@ -8,14 +8,17 @@
 import CoreGraphics
 
 struct HexagonParameters {
+    // Untuk Mengatur Pergerakan Dari Setiap Titik
     struct Segment {
         let line: CGPoint
         let curve: CGPoint
         let control: CGPoint
     }
 
+    // Adjust Shape
     static let adjustment: CGFloat = 0.085
 
+    // Ada 6 Segments Karena Hexagon
     static let segments = [
         Segment(
             line:    CGPoint(x: 0.60, y: 0.05),
