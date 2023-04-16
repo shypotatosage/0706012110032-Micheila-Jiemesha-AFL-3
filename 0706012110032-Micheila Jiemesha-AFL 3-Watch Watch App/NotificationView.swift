@@ -13,6 +13,7 @@ struct NotificationView: View {
     var message: String?
     var landmark: Landmark?
 
+    // Ini Buat Atur Isi Notificationnya
     var body: some View {
         VStack {
             if landmark != nil {

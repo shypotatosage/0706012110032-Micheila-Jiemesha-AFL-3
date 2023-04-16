@@ -34,7 +34,6 @@ class NotificationController: WKUserNotificationHostingController<NotificationVi
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
-
     override func didReceive(_ notification: UNNotification) {
         let modelData = ModelData()
 

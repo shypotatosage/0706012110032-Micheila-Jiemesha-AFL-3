@@ -16,6 +16,12 @@ struct _706012110032_Micheila_Jiemesha_AFL_3App: App {
             ContentView()
                 .environmentObject(modelData)
         }
+        // Untuk Mengatur Biar Bisa Munculkan Sidebar Lagi Ketika Tidak Sengaja Tertutup
+        #if !os(watchOS)
+        .commands {
+            LandmarkCommands()
+        }
+        #endif
 
         #if os(watchOS)
         WKNotificationScene(controller: NotificationController.self, category: "LandmarkNear")

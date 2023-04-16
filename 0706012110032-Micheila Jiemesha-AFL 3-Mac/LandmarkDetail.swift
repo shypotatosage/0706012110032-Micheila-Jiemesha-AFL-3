@@ -8,6 +8,7 @@
 import SwiftUI
 import MapKit
 
+// Custom Landmark Detail Untuk Menyesuaikan Dengan Tampilan Mac
 struct LandmarkDetail: View {
     @EnvironmentObject var modelData: ModelData
     var landmark: Landmark
