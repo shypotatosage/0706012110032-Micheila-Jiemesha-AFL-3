@@ -23,8 +23,16 @@ struct _706012110032_Micheila_Jiemesha_AFL_3App: App {
         }
         #endif
 
+        // Mengatur Notification Di Watch
         #if os(watchOS)
         WKNotificationScene(controller: NotificationController.self, category: "LandmarkNear")
+        #endif
+        
+        // Mengatur Agar Bisa Ada Settings Untuk Aplikasi di Mac
+        #if os(macOS)
+        Settings {
+            LandmarkSettings()
+        }
         #endif
     }
 }
