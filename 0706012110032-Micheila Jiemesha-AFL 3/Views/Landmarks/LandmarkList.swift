@@ -22,6 +22,7 @@ struct LandmarkList: View {
         var id: FilterCategory { self }
     }
 
+    // Untuk Filter Landmark Jika User Memilih untuk Filter
     var filteredLandmarks: [Landmark] {
         modelData.landmarks.filter { landmark in
             (!showFavoritesOnly || landmark.isFavorite)
@@ -39,7 +40,8 @@ struct LandmarkList: View {
     }
 
     var body: some View {
-        NavigationView {
+        // Untuk Navigation Jika Hanya Pakai 1 Column Biar Bisa Pindah-Pindah Screen, Jika Pakai 3 Column, Pakai NavigationSplitView
+        NavigationStack {
             List(selection: $selectedLandmark) {
                 ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
@@ -74,6 +76,41 @@ struct LandmarkList: View {
             Text("Select a Landmark")
         }
         .focusedValue(\.selectedLandmark, $modelData.landmarks[index ?? 0])
+//        NavigationView {
+//            List(selection: $selectedLandmark) {
+//                ForEach(filteredLandmarks) { landmark in
+//                    NavigationLink {
+//                        LandmarkDetail(landmark: landmark)
+//                    } label: {
+//                        LandmarkRow(landmark: landmark)
+//                    }
+//                    .tag(landmark)
+//                }
+//            }
+//            .navigationTitle(title)
+//            .frame(minWidth: 300)
+//            .toolbar {
+//                ToolbarItem {
+//                    Menu {
+//                        Picker("Category", selection: $filter) {
+//                            ForEach(FilterCategory.allCases) { category in
+//                                Text(category.rawValue).tag(category)
+//                            }
+//                        }
+//                        .pickerStyle(.inline)
+//
+//                        Toggle(isOn: $showFavoritesOnly) {
+//                            Label("Favorites only", systemImage: "star.fill")
+//                        }
+//                    } label: {
+//                        Label("Filter", systemImage: "slider.horizontal.3")
+//                    }
+//                }
+//            }
+//
+//            Text("Select a Landmark")
+//        }
+//        .focusedValue(\.selectedLandmark, $modelData.landmarks[index ?? 0])
     }
 }
 
