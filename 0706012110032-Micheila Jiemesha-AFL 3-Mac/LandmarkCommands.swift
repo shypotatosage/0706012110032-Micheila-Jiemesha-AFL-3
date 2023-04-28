@@ -15,7 +15,7 @@ struct LandmarkCommands: Commands {
     var body: some Commands {
         SidebarCommands()
         
-        // Tambah Tampilan Untuk Landmark - Mark/Remove As Favorite di Menu Bagian Atas, Kemudian Bisa Menggunakan Keyboard Shortcut Juga (Untuk Kasus Ini = Shift + Option + F
+        // Tambah Tampilan Untuk Landmark - Mark/Remove As Favorite di Menu Bagian Atas, Kemudian Bisa Menggunakan Keyboard Shortcut Juga (Untuk Kasus Ini = Shift + Option + F)
         CommandMenu("Landmark") {
             Button("\(selectedLandmark?.isFavorite == true ? "Remove" : "Mark") as Favorite") {
                 selectedLandmark?.isFavorite.toggle()

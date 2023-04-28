@@ -9,10 +9,11 @@ import SwiftUI
 
 // Menyediakan Settings Aplikasi
 struct LandmarkSettings: View {
+    // Menyimpan Preference Pilihan User Ke Local Storage Aplikasi
     @AppStorage("MapView.zoom")
     private var zoom: MapView.Zoom = .medium
 
-    // Tampilan Pilihan Map Zoom di Settings Aplikasi
+    // Tampilan Pilihan Map Zoom di Settings Aplikasi, Mau Sebesar Apa
     var body: some View {
         Form {
             Picker("Map Zoom:", selection: $zoom) {

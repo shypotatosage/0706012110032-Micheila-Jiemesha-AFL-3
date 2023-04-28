@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Custom Landmark List, Sebenarnya Sama Aja Dengan Yang Di IOS Tapi Lebih Disesuaikan Tampilannya Biar Sesuai Dengan Tampilan Watch
 struct LandmarkList: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false

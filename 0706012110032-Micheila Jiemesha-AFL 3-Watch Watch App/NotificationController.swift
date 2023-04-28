@@ -17,6 +17,7 @@ class NotificationController: WKUserNotificationHostingController<NotificationVi
 
     let landmarkIndexKey = "landmarkIndex"
     
+    // Panggil View Untuk Tampilan Notification
     override var body: NotificationView {
         NotificationView(
             title: title,
@@ -34,6 +35,8 @@ class NotificationController: WKUserNotificationHostingController<NotificationVi
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
+    
+    // Jika Notification Diterima
     override func didReceive(_ notification: UNNotification) {
         let modelData = ModelData()
 
